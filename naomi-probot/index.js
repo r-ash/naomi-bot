@@ -13,9 +13,8 @@ module.exports = app => {
 
   // When a new pull request is received (and is ready for review)
   app.on('pull_request.opened', async context => {
-    
+    // and the pull request updates the version
   })
-  // and the pull request updates the version
   // Update code in hintr and create a PR for that
 
   // For more information on building apps:
